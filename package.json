@@ -1,0 +1,28 @@
+{
+  "name": "gatsby-intro",
+  "version": "1.0.0",
+  "description": "Gatsby intro training",
+  "main": "index.js",
+  "author": "PolishCodeGirl Marzena Malachowska",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "gatsby": "^2.21.33",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "prettier": "^2.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PolishCodeGirl/gatsby-intro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PolishCodeGirl/gatsby-intro/issues"
+  },
+  "homepage": "https://github.com/PolishCodeGirl/gatsby-intro#readme"
+}
