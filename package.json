@@ -6,10 +6,18 @@
   "author": "PolishCodeGirl Marzena Malachowska",
   "license": "ISC",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gatsby build",
+    "develop": "cross-env GATSBY_GRAPHQL_IDE=playground gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
     "gatsby": "^2.21.33",
+    "gatsby-plugin-emotion": "^4.3.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
